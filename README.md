@@ -52,9 +52,9 @@ Python Libraries used:
        **knn file** - [knn.pickle](https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing).
 
   <h3>Authors</h3>
-  1.Anushkaa Ambuj (@anushkaa-ambuj)
-  2. Anupama Birman (@Abirman1)
-  3. Shreyas Vaidya (@Shreyasvaidya)
+  1. Anushkaa Ambuj
+  2. Anupama Birman
+  3. Shreyas Vaidya
 
   <h3>Acknowledgemnets</h3>
   1.Hafemann et.al, Learning Features for Offline Handwritten Signature Verification
