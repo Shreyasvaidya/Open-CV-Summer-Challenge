@@ -33,7 +33,7 @@
     Evaluate the model using the Receiver Operating Characteristic (ROC) curve and the Area Under the Curve (AUC) metric.
 </ol>
 
-# Usage Instructions
+## Usage Instructions
 
   1. Place the training dataset in the dataset folder
   2. Download the CRAFT model from the official  repository  or from the [link](www.google.com) and  edit the model_path variable in the preprocess.py file
