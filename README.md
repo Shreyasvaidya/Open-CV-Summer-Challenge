@@ -1,5 +1,5 @@
-<center><b> Code for the summer challenge on writer verification </b></center>
-
+<b> Code for the Summer Challenge on Writer Verification </b>
+<hr>
 <h3>Model Pipeline:</h3>
 <ol>
   <li>Data cleaning:</li>
