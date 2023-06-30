@@ -14,11 +14,7 @@
 <hr>
 <h3>Model Pipeline:</h3>
 <ol>
-  <li>Data cleaning:</li>
-    <ul>
-      <li>Detect the languages used in the dataset.</li>
-      <li>Remove any digit text data.</li>
-    </ul>
+  
   <li>Data preprocessing:</li>
     <ul>
       <li>Segment the images using CRAFT algorithm.</li>
