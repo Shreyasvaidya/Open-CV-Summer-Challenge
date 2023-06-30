@@ -39,7 +39,7 @@ Python Libraries used:
  <h3> Usage </h3>
 
   1. Place the training dataset in the dataset folder
-  2. Download the CRAFT model from the official  repository  or from the [link](https://drive.google.com/file/d/1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ/view) and  edit the model_path variable in the preprocess.py file
+  2. Download the CRAFT model from the official  repository  or from the [link](https://drive.google.com/file/d/1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ/view) and  edit the model_path variable in the preprocess.py file/
   3. Run the script preprocess.py .This will create a new folder preprocessedTrain with binarised and cropped images inside the dataset folder.
   4. Run All the cells in the train.ipynb file.Be sure to change the path of tessdata folder based on its location in the system.Also in windows the forward slashes have to be changed to 
      backslashes.
@@ -47,7 +47,8 @@ Python Libraries used:
      **Model file** - [Model.pth](https://drive.google.com/file/d/1w8XV_rqawwvosHgY-M9yABVaN6HmmrE6/view?usp=sharing)
      
   6.The Eval script has to be run on colab.You can run all the cells ,or only calculate distances between test images and then predict using the saved knn file.
-    **knn file** - [knn.pickle](https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing)
+    **knn file** - [knn.pickle](https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing).
+    
   7. Before running the colab script , the  dataset.zip file ,provided in the beginning of the competition has to be placed in the MyDrive folder.The pth file,semi-test.zip , and test.csv files are to be placed inside an ncv folder.
 
 
