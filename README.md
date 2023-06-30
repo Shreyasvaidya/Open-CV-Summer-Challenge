@@ -1,4 +1,15 @@
-<b> Code for the Summer Challenge on Writer Verification </b>
+
+<hr>
+<h3>Index</h3>
+<ol>
+  <li>Model Pipeline</li>
+  <li>Installation & Requirements</li>
+  <li>Repo Structure</li>
+  <li>Usage</li>
+  <li>Licence</li>
+  <li>Authors</li>
+  <li>Acknowledgment</li>     
+</ol>
 <hr>
 <h3>Model Pipeline:</h3>
 <ol>
@@ -13,7 +24,7 @@
       <li>Binarize the images.</li>
       <li>Invert the images (black text on white background).</li>
     </ul>
-  <li>Feature extraction: *(Phase-2 Modifications)</li>
+  <li>Feature extraction: (*Phase-2 Modifications)</li>
     <ul>
       <li>Extract character-level features.</li>
       <li>Extract word-level features.</li>
