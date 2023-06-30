@@ -44,9 +44,9 @@ Python Libraries used:
   4. Run All the cells in the train.ipynb file.Be sure to change the path of tessdata folder based on its location in the system.Also in windows the forward slashes have to be changed to 
      backslashes.
   5. The model pth file will be saved in the local directory
-     **Model file** - [https://drive.google.com/file/d/1w8XV_rqawwvosHgY-M9yABVaN6HmmrE6/view?usp=sharing](Model.pth)
+     **Model file** - [Model.pth](https://drive.google.com/file/d/1w8XV_rqawwvosHgY-M9yABVaN6HmmrE6/view?usp=sharing)
   6.The Eval script has to be run on colab.You can run all the cells ,or only calculate distances between test images and then predict using the saved knn file.
-    **knn file** - [https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing](knn.pickle)
+    **knn file** - [knn.pickle](https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing)
   7. Before running the colab script , the  dataset.zip file ,provided in the beginning of the competition has to be placed in the MyDrive folder.The pth file,semi-test.zip , and test.csv files are to be placed inside an ncv folder.
 
 
