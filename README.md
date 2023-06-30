@@ -48,11 +48,11 @@
 
 # Usage Instructions
 
-<ol>
-  <li> Place the training dataset in the dataset folder </li>
-  <li>Download the CRAFT model from the official  repository  or from the [link](www.google.com) and  edit the model_path variable in the preprocess.py file.</li>
-  <li>Run the script preprocess.py .This will create a new folder preprocessedTrain with binarised and cropped images inside the dataset folder</li>
-</ol>
+  1. Place the training dataset in the dataset folder
+  2. Download the CRAFT model from the official  repository  or from the [link](www.google.com) and  edit the model_path variable in the preprocess.py file
+  3. Run the script preprocess.py .This will create a new folder preprocessedTrain with binarised and cropped images inside the dataset folder.
+  
+  
 
 
 
