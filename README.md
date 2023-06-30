@@ -27,7 +27,7 @@
   <li>Evaluating the model based on ROC and AUC:</li>
     Evaluate the model using the Receiver Operating Characteristic (ROC) curve and the Area Under the Curve (AUC) metric.
 </ol>
-<h3> Imstallation </h3>
+<h3> Installation </h3>
 Python Libraries used:
 <ul>
   <li>PIL</li>
@@ -36,7 +36,7 @@ Python Libraries used:
   <li>Matplotlib</li>
   <li>Sklearn</li>
   Other than that,we use the tesseract ocr engine. Installing the engine for the respective OS(with language support of Hindi) and python library pytesseract is required.
- <h3> Usage </h3>
+<h3> Usage </h3>
 
   1. Place the training dataset in the dataset folder
   2. Download the CRAFT model from the official  repository  or from the [link](https://drive.google.com/file/d/1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ/view) and  edit the model_path variable in the preprocess.py file/
@@ -45,12 +45,20 @@ Python Libraries used:
      backslashes.
   5. The model pth file will be saved in the local directory
   6. The Eval script has to be run on colab.You can run all the cells ,or only calculate distances between test images and then predict using the saved knn file.
-  7.  Before running the colab script , the  dataset.zip file ,provided in the beginning of the competition has to be placed in the MyDrive folder.The pth file,semi-test.zip , and test.csv files are to be placed inside an ncv folder.
+  7.  Before running the colab script , the  dataset.zip file ,provided in the beginning of the competition has to be placed in the MyDrive folder.The pth file,semi-test.zip and test.csv files are to be placed inside an ncv folder.
 
       **Model file** - [Model.pth](https://drive.google.com/file/d/1w8XV_rqawwvosHgY-M9yABVaN6HmmrE6/view?usp=sharing)
      
        **knn file** - [knn.pickle](https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing).
-  
 
+  <h3>Authors</h3>
+  1.Anushkaa Ambuj (@anushkaa-ambuj)
+  2. Anupama Birman (@Abirman1)
+  3. Shreyas Vaidya (@Shreyasvaidya)
+
+  <h3>Acknowledgemnets</h3>
+  1.Hafemann et.al, Learning Features for Offline Handwritten Signature Verification
+using Deep Convolutional Neural Networks.
+  2.  [Official implementation of Character Region Awareness for Text Detection (CRAFT)](https://github.com/clovaai/CRAFT-pytorch)
 
 
