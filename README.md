@@ -9,7 +9,7 @@
     </ul>
   <li>Data preprocessing:</li>
     <ul>
-      <li>Segment the images using CRAFT algorithms.</li>
+      <li>Segment the images using CRAFT algorithm.</li>
       <li>Binarize the images.</li>
       <li>Invert the images (black text on white background).</li>
     </ul>
