@@ -53,12 +53,15 @@ Python Libraries used:
 
   <h3>Authors</h3>
   1. Anushkaa Ambuj
+  
   2. Anupama Birman
+ 
   3. Shreyas Vaidya
 
   <h3>Acknowledgemnets</h3>
   1.Hafemann et.al, Learning Features for Offline Handwritten Signature Verification
 using Deep Convolutional Neural Networks.
+
   2.  [Official implementation of Character Region Awareness for Text Detection (CRAFT)](https://github.com/clovaai/CRAFT-pytorch)
 
 
