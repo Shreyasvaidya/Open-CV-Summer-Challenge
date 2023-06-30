@@ -1,0 +1,12 @@
+{
+  "dependencies": [
+    "opencv-python",
+    "pytesseract",
+    "langdetect",
+    "matplotlib",
+    "numpy",
+    "torch",
+    "torchvision",
+    "scikit-learn"
+  ]
+}
