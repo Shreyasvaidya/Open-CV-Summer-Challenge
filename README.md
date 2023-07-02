@@ -41,6 +41,9 @@ Python Libraries used:
   <li>Sklearn</li>
   <li>Other than that, we use the Tesseract OCR engine. Installing the engine for the respective OS(with language support of Hindi) and Python library Pytesseract is required.</li>
 </ul>
+  * You can download all the required libraries using the below phython code:
+  
+    !pip install -r dependencies.json
 
 <h3> Usage </h3>
 <ol>
@@ -55,13 +58,13 @@ Python Libraries used:
       &nbsp; **KNN file** - [knn.pickle]<a href="https://drive.google.com/file/d/1bKv1ivylU_lS_MUac1prU1h8OiTxElpX/view?usp=sharing"> Link </a>
 </ol>
 
-  <h3>Authors</h3>
+<h3>Authors</h3>
   1. Anushkaa Ambuj
   2. Anupama Birman  
   3. Shreyas Vaidya
 
-  <h3>Acknowledgemnets</h3>
-  <ol>
+<h3>Acknowledgemnets</h3>
+<ol>
   <li>Hafemann et.al, Learning Features for Offline Handwritten Signature Verification using Deep Convolutional Neural Networks.</li>
   <li> [Official implementation of Character Region Awareness for Text Detection (CRAFT)](https://github.com/clovaai/CRAFT-pytorch)</li>
 </ol>
