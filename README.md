@@ -41,9 +41,18 @@ Python Libraries used:
   <li>Sklearn</li>
   <li>Other than that, we use the Tesseract OCR engine. Installing the engine for the respective OS(with language support of Hindi) and Python library Pytesseract is required.</li>
 </ul>
-  * You can download all the required libraries using the below phython code:
+  * You can download all the required libraries using the below Python code:
   
-    !pip install -r dependencies.json
+    import json
+    import subprocess
+    
+    # Read the JSON file
+    with open('dependencies.json', 'r') as file:
+      data = json.load(file)
+
+    # Install the libraries
+    for library in data['dependencies']:
+      subprocess.check_call(['pip', 'install', library])
 
 <h3> Usage </h3>
 <ol>
